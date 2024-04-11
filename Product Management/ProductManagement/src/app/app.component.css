@@ -1,0 +1,99 @@
+/* Styles for the product list component */
+
+/* Container styles */
+div.product-list-container {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+  }
+  
+  /* Filter section styles */
+  div.filter-section {
+    margin-bottom: 20px;
+  }
+  
+  div.filter-section label {
+    margin-right: 10px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header styles */
+  thead {
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Bottom border */
+  }
+  
+  /* Table body styles */
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Bottom border */
+  }
+  
+  /* Table row hover effect */
+  tbody tr:hover {
+    background-color: #f9f9f9; /* Lighter background on hover */
+  }
+  
+  /* Image styles */
+  td img {
+    max-width: 100px; /* Limit image width */
+  }
+  
+  .modal-dialog {
+    max-width: 400px;
+    margin-left: 27%;
+
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    border: 0.5px solid;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    height: 53px;
+    margin-top: -34px;
+  }
+  
+  
+
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 33%;
+    margin-top: 46px;
+    font-family: cursive;
+  }
+  
+  .modal-body {
+    padding: 20px;
+    border-top: 0.01px solid;
+    border-bottom: 0.01px solid;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    justify-content: center;
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+  
+  .modal-footer button {
+    margin: 0 10px;
+  }
+  .edit-mode input,
+.edit-mode button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px; }

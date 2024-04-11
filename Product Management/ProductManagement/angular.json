@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ContactManagement": {
+    "ProductManagement": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/contact-management",
+            "outputPath": "dist/product-management",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ContactManagement:build:production"
+              "buildTarget": "ProductManagement:build:production"
             },
             "development": {
-              "buildTarget": "ContactManagement:build:development"
+              "buildTarget": "ProductManagement:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ContactManagement:build"
+            "buildTarget": "ProductManagement:build"
           }
         },
         "test": {
@@ -108,6 +108,6 @@
     }
   },
   "cli": {
-    "analytics": "35c4d087-a11b-4bd9-ad8b-33fca7b8e85f"
+    "analytics": "708b3bb3-1b36-465f-9bca-57f009dea7d7"
   }
 }

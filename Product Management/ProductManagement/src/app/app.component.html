@@ -1,0 +1,118 @@
+<div>
+  <h2>Product List</h2>
+  <div>
+    <label>Start Date:</label>
+    <input type="date" [(ngModel)]="startDate">
+    <label>End Date:</label>
+    <input type="date" [(ngModel)]="endDate">
+    <button (click)="filterProducts()">Filter</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Detail</th>
+        <th>Picture</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+        <th>Created Date</th>
+        <th> Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <input type="text" placeholder="Search product" [(ngModel)]="searchTerm">
+        </td>
+        <td>
+          <input type="text" placeholder="Search Details" [(ngModel)]="searchTermDetail">
+        </td>
+        <td>
+          <input type="text" placeholder="Price" [(ngModel)]="searchTermPrice">
+        </td>
+        <td>
+        </td>
+        <td></td>
+        <td><input type="text" placeholder="Search date" [(ngModel)]="searchTermDate"></td>
+      </tr>
+      
+      <tr *ngFor="let product of products; let i = index">
+        <td *ngIf="!product.isEditMode">{{ product.name }}</td>
+        <td *ngIf="!product.isEditMode">{{ product.detail }}</td>
+        <td *ngIf="!product.isEditMode"><img [src]="product.picture" alt="Product Image"></td>
+        <td *ngIf="!product.isEditMode">{{ product.price }}</td>
+        <td *ngIf="!product.isEditMode">{{ product.quantity }}</td>
+        <td *ngIf="!product.isEditMode">{{ product.total_price }}</td>
+        <td *ngIf="!product.isEditMode">{{ product.created_date | date: 'shortDate' }}</td>
+        <td *ngIf="!product.isEditMode">
+          <button (click)="toggleEditMode(product)">Edit</button>
+          <button (click)="showDeleteConfirmation(product.id)">Delete</button>
+        </td>
+        <td *ngIf="product.isEditMode" class="edit-mode">
+          <input type="text" [(ngModel)]="product.name">
+          <input type="text" [(ngModel)]="product.detail">
+          <input type="text" [(ngModel)]="product.picture">
+          <input type="text" [(ngModel)]="product.price">
+          <input type="text" [(ngModel)]="product.quantity">
+          <input type="text" [(ngModel)]="product.total_price">
+          <input type="text" [(ngModel)]="product.created_date">
+          <button (click)="saveChanges(product)">Save</button>
+          <button (click)="cancelEdit(product)">Cancel</button>
+        </td>
+      </tr>
+      
+      <!-- <tr *ngFor="let product of products; ">
+        
+        <td>{{ product.name }}</td>
+        <td>{{ product.detail }}</td>
+        <td><img [src]="product.picture" alt="Product Image"></td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.quantity }}</td>
+        <td>{{ product.total_price }}</td>
+        <td>{{ product.created_date | date: 'shortDate' }}</td>
+        <td>
+          <button>Edit</button>
+          <button (click)="Showdelete(product.id)">Delete</button>
+        </td>
+      </tr> -->
+
+      
+    </tbody>
+
+  </table>
+  
+  <form (submit)="addProduct(expenseForm.value)" #expenseForm="ngForm">
+     
+    <input type="text" ngModel name="name" required>
+   <input type="text" ngModel name="detail" required>
+    <input type="text" ngModel name="picture" required>
+    <input type="number" ngModel name="price" required>
+    <input type="number" ngModel name="quantity" required>
+    <input type="number" ngModel name="total_price" required>
+    <input type="date" ngModel name="created_date" required>
+    <button (click)="addProduct(newProduct)">Add</button>
+  
+</form>
+</div>
+
+
+<div class="modal" id="confirmDeleteModal" tabindex="-1" role="dialog" *ngIf="dialogbox">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Delete Alert !!!</h5>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete this employee?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="canceldel()">Cancel</button>
+        <button type="button" class="btn btn-danger" (click)="deleteProduct()" style="margin-left: 63%;
+        background-color: red;
+        color: white;">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
