@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TechAPI.props" />
+</Project>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Kalpana\\TechAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\techapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\techapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|f:\\kalpana\\techapi\\techapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46E60CF2-5ACA-4C5C-8133-BB05329EE0C5}|TechAPI\\TechAPI.csproj|solutionrelative:techapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TechAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TechAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAADgv1cAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:31:18.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TechAPI\\Models\\Product.cs",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\Models\\Product.cs",
+              "RelativeToolTip": "TechAPI\\Models\\Product.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA3wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:28:10.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TechAPI",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\TechAPI.csproj",
+              "RelativeDocumentMoniker": "TechAPI\\TechAPI.csproj",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\TechAPI.csproj",
+              "RelativeToolTip": "TechAPI\\TechAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-11T08:13:44.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\DbContext.cs",
+              "RelativeDocumentMoniker": "TechAPI\\DbContext.cs",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\DbContext.cs",
+              "RelativeToolTip": "TechAPI\\DbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:22:03.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TechAPI\\Program.cs",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\Program.cs",
+              "RelativeToolTip": "TechAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:12:30.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Kalpana\\TechAPI\\TechAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TechAPI\\appsettings.json",
+              "ToolTip": "F:\\Kalpana\\TechAPI\\TechAPI\\appsettings.json",
+              "RelativeToolTip": "TechAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T08:11:22.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
